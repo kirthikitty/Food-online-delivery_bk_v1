@@ -1,4 +1,4 @@
-package com.example.FoodOrderBack.controller;
+package com.example.FoodOrderBack.Controller;
 
 import java.util.List;
 
@@ -34,7 +34,4 @@ private RegisterRepo registerRepo;
 		return ResponseEntity.status(HttpStatus.OK).body(register);
 	}
 	
-	
 }
-	
-

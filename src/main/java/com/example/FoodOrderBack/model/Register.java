@@ -10,16 +10,16 @@ import jakarta.persistence.Table;
 public class Register {
 	@Id
 	@GeneratedValue
-	private int id;
+	private int registerid;
 	private String firstName;
 	private String lastName;
 	private String username;
 	private int password;
-	public int getId() {
-		return id;
+	public int getregisterid() {
+		return registerid;
 	}
-	public void setId(int id) {
-		this.id = id;
+	public void setregisterid(int registerid) {
+		this.registerid = registerid;
 	}
 	public String getFirstName() {
 		return firstName;
